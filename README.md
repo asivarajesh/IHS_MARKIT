@@ -44,8 +44,9 @@ Here we are iterating over each character until end.
 Here i came across an algorithm i,e "Manacher’s algorithm" it finds the longest palindromic substring in linear time.
 so, it is far better than previous bruteforce approach.
 
-Here we have 2 different methods * Generate Palindromes
-                                 * Filter Palindromes
+Here we have 2 different methods 
+* Generate Palindromes
+* Filter Palindromes
                                  
 #### 1.Generate Palindromes:
                         ```
