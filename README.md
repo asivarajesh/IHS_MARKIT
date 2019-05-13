@@ -50,18 +50,15 @@ Here we have 2 different methods
                                  
 #### 1.Generate Palindromes:
 ```
-                        - Here,with the help of "Manacher’s algorithm" we will iterate over the input String to find the 
-                         length of the palindrome centered at position i and store this length in lengths[][].
+- Here,with the help of "Manacher’s algorithm" we will iterate over the input String to find the length of the palindrome centered at     position i and store this length in lengths[][].
                          
-                        - one row is for storing odd lengths palindromes and another is for even lengths palindromes.
+- one row is for storing odd lengths palindromes and another is for even lengths palindromes.
                         
-                        - Later,we will traverse through the array lengths[][] to calculate the palindromic substrings 
-                         centered at each position.
+- Later,we will traverse through the array lengths[][] to calculate the palindromic substrings centered at each position.
                         
-                        - AtLast, we will store the palindromic substrings and their index positions in TreeMap as it maintains
-                          Insertion Order.
+- AtLast, we will store the palindromic substrings and their index positions in TreeMap as it maintains Insertion Order.
                         
-                        - we got all palindromic substrings from the given input string.
+- we got all palindromic substrings from the given input string.
 ```
 
 #### 2. Filter Palindromes:
