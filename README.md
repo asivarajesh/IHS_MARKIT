@@ -63,16 +63,15 @@ Here we have 2 different methods
 
 #### 2. Filter Palindromes:
 ```
-                      
-                      - Here, we will filter over all palindromic substrings to get required result.
-                      - for this requirment, we will use ArrayList<String>(keyset of TreeMap)
-                      - we will iterate all strings in the arrayList and then using "contains" method we will achive required result.
+- Here, we will filter over all palindromic substrings to get required result.
+- for this requirment, we will use ArrayList<String>(keyset of TreeMap)
+- we will iterate all strings in the arrayList and then using "contains" method we will achive required result.
                      
 ```
  
  ### References:
 
- 1. https://www.youtube.com/watch?v=nbTSfrEfo6M&t=257s
- 2. https://www.baeldung.com/java-palindrome-substrings
+ [IDerserve] (https://www.youtube.com/watch?v=nbTSfrEfo6M&t=257s)
+ [Baeldung] (https://www.baeldung.com/java-palindrome-substrings)
  
                        
