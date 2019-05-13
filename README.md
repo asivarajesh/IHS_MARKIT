@@ -24,7 +24,7 @@ OO,48,2
 ```
 ### Solution:
 
-*Note - we can solve this problem by using simple for loops. it is easy learn and understand.(Brute Force Approach).
+* Note - we can solve this problem by using simple for loops. it is easy learn and understand.(Brute Force Approach).
         Best Approach: Using Manacher’s algorithm.
 
 ### Sample logic:
