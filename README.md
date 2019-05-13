@@ -70,8 +70,6 @@ Here we have 2 different methods * Generate Palindromes
                       - we will iterate all strings in the arrayList and then using "contains" method we will achive required result.
                       ```
                        
-                       
- Please find references.
  
  ### References:
 
