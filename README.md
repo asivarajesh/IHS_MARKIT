@@ -71,7 +71,7 @@ Here we have 2 different methods
  
  ### References:
 
- [IDerserve](https://www.youtube.com/watch?v=nbTSfrEfo6M&t=257s)
- [Baeldung](https://www.baeldung.com/java-palindrome-substrings)
+ * [IDerserve](https://www.youtube.com/watch?v=nbTSfrEfo6M&t=257s)
+ * [Baeldung](https://www.baeldung.com/java-palindrome-substrings)
  
                        
