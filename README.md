@@ -4,7 +4,7 @@ Problem Statement:
 ******************
 Find all palindromes in a string, and print them, along with their starting position and length, sorted by their length.
 
-GivenInput:ABCBAHELLOHOWRACECARAREYOUILOVEUEVOLIIAMAIDOINGGOOD
+GivenInput:  ABCBAHELLOHOWRACECARAREYOUILOVEUEVOLIIAMAIDOINGGOOD
 
 SampleOutput:
 *************
@@ -23,7 +23,7 @@ OO,48,2
 Solution:
 *********
 
-Note: we can solve this problem by using simple for loops. it is easy learn and understand.(Brute Force Approach)
+Note: we can solve this problem by using simple for loops. it is easy learn and understand.(Brute Force Approach).
       Best Approach: Using Manacher’s algorithm.
 
 Sample logic:
@@ -34,7 +34,7 @@ Sample logic:
                 palindromes.add(input.substring(i, j));
             }}}
 Here we are iterating over each character until end.
-Drawback: its time complexity is O(n^3)
+Drawback: its time complexity is O(n^3).
           if we have a large input string it takes more time to process as it need to iterate over all elements.
           
 
@@ -48,8 +48,8 @@ Here we have 2 different methods:1. Generate Palindromes
                                  2. Filter Palindromes
                                  
 1.Generate Palindromes:- Here,with the help of "Manacher’s algorithm" we will iterate over the input String to find the 
-                        length of the palindrome centered at position i and store this length in lengths[][].
-                        
+                         length of the palindrome centered at position i and store this length in lengths[][].
+                         
                        - one row is for storing odd lengths palindromes and another is for even lengths palindromes.
                         
                        - Later,we will traverse through the array lengths[][] to calculate the palindromic substrings 
