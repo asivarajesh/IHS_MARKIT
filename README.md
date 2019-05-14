@@ -36,7 +36,7 @@ OO,48,2
             }}}
  ```
 Here we are iterating over each character until end.
-*Drawback - its time complexity is O(n^3).
+* Drawback - its time complexity is O(n^3).
              if we have a large input string it takes more time to process as it need to iterate over all elements.
           
 ### Best Approach:
