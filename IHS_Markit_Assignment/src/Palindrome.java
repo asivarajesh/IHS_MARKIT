@@ -13,6 +13,7 @@ public class Palindrome
 		sc.close();
 		GeneratePalindromes(input);
 	}
+	
 	//Method to Generate All Palindrome Substrings from a Given Input String
 	public static void GeneratePalindromes(String instr)
 	{
@@ -48,12 +49,14 @@ public class Palindrome
 			}
 		FilterPalindromes(tmap);
 	}
+	
 	//Method to filter AllPalindrome Strings	
 	public static void FilterPalindromes(TreeMap<String,Integer> tmap)
 	{
 		HashMap<String,Integer> tempMap=new HashMap<String,Integer>(tmap);
 		ArrayList<String> alist =new ArrayList<String>(tmap.keySet());
 		alist.sort((o1,o2)->o1.length()>=o2.length()?-1:1);
+		ArrayList<String> templist=new ArrayList<String>();
 		
 		for(int i=0;i<alist.size()-1;i++)
 		{
@@ -62,9 +65,10 @@ public class Palindrome
 				String temp = alist.get(j);
 				if(alist.get(i).contains(temp))
 				{
-					alist.remove(temp);
+					templist.add(temp);
 				}
 			}
+			alist.removeAll(templist);
 		}
 		for(String s:alist)
 		{
